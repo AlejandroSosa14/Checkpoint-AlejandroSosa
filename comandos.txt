@@ -1,0 +1,247 @@
+    1  ls
+    2  cd DOCUMENTS
+    3  ls
+    4  cd DH
+    5  ls
+    6  mkdir informes
+    7  ls
+    8  cd informes
+    9  touch informeAnual.xls
+   10  ls
+   11  ls
+   12  mkdir auditoria
+   13  cd auditoria
+   14  touch auditoria.xls
+   15  touch reporteConsolidado.xls
+   16  ls
+   17  ls
+   18  cd Documents
+   19  ls
+   20  cd DH
+   21  ls
+   22  cd informes
+   23  ls
+   24  ls
+   25  mkdir auditoria
+   26  touch auditoria.xls
+   27  touch reporteConsolidado.xls
+   28  ls
+   29  mv auditoria.xls auditoria/
+   30  cd auditoria
+   31  ls
+   32  pwd
+   33  ls .l
+   34  ls .
+   35  ls ..
+   36  cls
+   37  clear
+   38  cd ..
+   39  cd Documents
+   40  ls
+   41  cd DH
+   42  ls
+   43  clear
+   44  mkdir Películas
+   45  ls
+   46  cd Películas
+   47  mkdir Infantiles Accion Terror Comedia Romanticas
+   48  ls
+   49  cd Infantiles
+   50  touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+   51  ls
+   52  cd ..
+   53  cd Accion
+   54  touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" Cars.jpg
+   55  ls
+   56  cd ..
+   57  cd Terror
+   58  touch "La dama y el bagavundo.png" "Yo antes de ti.xls" "Que paso ayer.pdf" "We will rock you.js"
+   59  ls
+   60  cd ..
+   61  cd Comedia
+   62  touch Madagaskar.js "Orgullo y Prejuicio.txt" IT.xls "Mision Imposible.png"
+   63  ls
+   64  ls 'l
+   65  ls -l
+   66  cd ..
+   67  cd Romantica
+   68  ls
+   69  cd Romanticas
+   70  touch Pocahontas.jpg Annabelle.js "Los vengadores.js" "La mascara.js"
+   71  ls
+   72  ls -lah ..
+   73  cd ..
+   74  ls -R
+   75  cd ..
+   76  mkdir /Películas/Romanticas/Prueba
+   77  mkdir ./Películas/Romanticas/Prueba
+   78  cd ./Películas/Romanticas
+   79  ls
+   80  mkdir ../Accion/Prueba2
+   81  cd ..
+   82  cd Accion
+   83  ls
+   84  mv Cars.jpg ../Infantiles
+   85  ls
+   86  cd ..
+   87  cd Infantiles
+   88  ls
+   89  cd ..
+   90  cd Accion
+   91  mv "El hexorcista.xls" ../Terror
+   92  ls
+   93  mv "Diario de una pasion.js" ../Romanticas
+   94  ls
+   95  cd ..
+   96  cd Terror
+   97  ls
+   98  mv "Que paso ayer.pdf" ../Comedia
+   99  ls
+  100  mv "La dama y el bagavundo.png" ../Infantiles
+  101  ls
+  102  mv "Yo antes de ti.xls" ../Romanticas
+  103  ls
+  104  cd ..
+  105  cd Comedia
+  106  ls
+  107  mv "Mision Imposible.png" ../Accion
+  108  ls
+  109  mv IT.xls ../Terror
+  110  ls
+  111  mv "Madagaskar.js" ../Infantiles
+  112  ls
+  113  mv "Orgullo y Prejuicio.txt" ../Romanticas
+  114  ls
+  115  cd ..
+  116  cd Infantiles
+  117  ls
+  118  mv "El juego del miedo.xls" ../Terror
+  119  mv Titanic.jpg ../Romanticas
+  120  mv "Rapido y furioso.pdf" ../Accion
+  121  ls
+  122  cd ..
+  123  cd Romanticas
+  124  ls
+  125  mv Anabelle.js ../Terror
+  126  mv "Anabelle.js" ../Terror
+  127  mv "Annabelle.js" ../Terror
+  128  mv "Los vengadores.js" ../Accion
+  129  mv "La mascara.js" ../Comedia
+  130  mv "Pocahontas.jpg" ../Infantiles
+  131  ls
+  132  cd ..
+  133  ls -R
+  134  cd Infantiles
+  135  ls
+  136  mv "La dama y el bagavundo.png" "La dama y el bagavundo.png"
+  137  ls
+  138  mv "Intenzamente.txt" "Intensamente.txt"
+  139  ls
+  140  mv Madagaskar.js Madagascar.js
+  141  ls
+  142  cd ..
+  143  cd Terror
+  144  ls
+  145  mv "El hexorcista.xls" "El exorcista.xls"
+  146  ls
+  147  cd ..
+  148  cd ..
+  149  rm ./Películas/Accion/Smooth criminal.txt ./Películas/Terror/We will roch you.js
+  150  rm "./Películas/Accion/Smooth criminal.txt" ./Películas/Terror/We will roch you.js
+  151  rm "./Películas/Accion/Smooth criminal.txt" ./Películas/Terror/We will roch you.js
+  152  rm "./Películas/Accion/Smooth criminal.txt" "./Películas/Terror/We will roch you.js"
+  153  rm ./Películas/Accion/"Smooth criminal.txt" ./Películas/Terror/"We will roch you.js"
+  154  rm ./Películas/Accion/"Smooth criminal.txt"
+  155  rm ./Películas/Terror/"We will rock you.js"
+  156  rm ./Películas/Accion/"Smooth criminal.txt"
+  157  git --version
+  158  git init
+  159  git config user.name "AlejandroSosa14"
+  160  git config.email "alej4ndro1499@gmail.com"
+  161  git config user.email "alej4ndro1499@gmail.com"
+  162  clear
+  163  cd ..
+  164  clear
+  165  mkdir "Prueba Clase3 GIT"
+  166  cd  "Prueba Clase3 GIT"
+  167  git init
+  168  touch app.js
+  169  git status
+  170  git add app.js
+  171  git status
+  172  git config user.name "AlejandroSosa14"
+  173  git config user.email "alej4ndro1499@gmail.com"
+  174  git config user.email
+  175  cd ..
+  176  clear
+  177  mkdir mercadoAbierto
+  178  cd mercadoAbierto
+  179  git init
+  180  touch productos.js
+  181  git status
+  182  git add productos.js
+  183  git status
+  184  git commit -m "mi primer commit"
+  185  git status
+  186  mkdir Ecommerce
+  187  ls
+  188  cd Ecommerce/
+  189  touch app.js
+  190  touch app.config
+  191  ls
+  192  mv app.config config.js
+  193  mkdir db
+  194  ls
+  195  git init
+  196  git config user.name "AlejandroSosa14"
+  197  git config user.email "alej4ndro1499@gmail.com"
+  198  git add .
+  199  git commit -m "Primer Commit"
+  200  git status
+  304  mkdir Checkpoint-AlejandroSosa
+  305  cd Checkpoint-AlejandroSosa/
+  306  [200~echo "# Checkpoint-AlejandroSosa" >> README.md
+  307  git init
+  308  git add README.md
+  309  git commit -m "first commit"
+  310  git branch -M main
+  311  git remote add origin git@github.com:AlejandroSosa14/Checkpoint-AlejandroSosa.git
+  312  git push -u origin main
+  313  touch main.js index.html
+  314  ls
+  315  git add .
+  316  git commit -m "Primer Commit Archivos"
+  317  git push origin main
+  318  git branch feature
+  319  git checkout feature
+  320  mkdir Hardware Software SeguridadInformatica
+  321  ls
+  322  cd Hardware/
+  323  touch resumen.txt
+  324  ls
+  325  cd ..
+  326  cd Software/
+  327  touch resumen.txt
+  328  cd ..
+  329  cd SeguridadInformatica/
+  330  touch resumen.txt
+  331  cd ..
+  332  git add .
+  333  git status
+  334  git commit -m "Agregando resumen.txt a carpetas de feature"
+  335  git push origin feature
+  336  git chekout main
+  337  git checkout main
+  338  ls
+  339  mv main.js resumenHardware.txt
+  340  ls
+  341  mv index.html resumenSoftware.txt
+  342  ls
+  343  nano resumenSoftware.txt
+  344  nano resumenHardware.txt 
+  345  history # > comandos.txt
+  346  ls
+  347  touch comandos.txt
+  348  ls
+  349  history # > comandos.txt
+  350  history > comandos.txt

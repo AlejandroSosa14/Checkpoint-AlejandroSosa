@@ -1,0 +1,3 @@
+- Memoria cache
+- Memoria RAM
+- Discos duros o SSD
